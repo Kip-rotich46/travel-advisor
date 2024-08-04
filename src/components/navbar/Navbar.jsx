@@ -1,4 +1,5 @@
 import './navbar.css';
+// import {kenya} from './assets/kenya.svg'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <span className='logo'>protioBooking</span>
             <div className='navItems'>
               <button className='navButton'>KES</button>
-              <button className='navButton'>USD</button>
+              {/* <button className='navButton'><img src='kenya' alt='Kenya'/></button> */}
               <button className='navButton'>?</button>
               <button className='navButton'>List your property</button>
                 <button className='navButton'>Register</button>
