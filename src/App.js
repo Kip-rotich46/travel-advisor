@@ -1,26 +1,21 @@
-import React from "react";
-import  {CssBaseline, Grid} from '@material-ui/core';
+import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Header from './components/Header/Header';
-import List from './components/List/List';
-import Map from './components/Map/Map';
-
+import Home from './pages/home/Home';
+import './App.css';
+import List from './pages/list/List';
+import Hotel from './pages/hotel/Hotel';
 
 function App() {
   return (
-    <>
-    <CssBaseline>
-      <Header />
-      <Grid container spacing={3} style={{width: '100%'}}>
-        <Grid item xs={12} sm={4}>
-          <List />
-        </Grid>
-        <Grid item xs={12} sm={8}>
-          <Map />
-        </Grid>
-      </Grid>
-    </CssBaseline>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/hotels' element={<List />} />
+        <Route path='/hotels:id' element={<Hotel />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
