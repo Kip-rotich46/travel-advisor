@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Travel Advisor App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Travel Advisor App! This app helps you find and book hotels, flights, car rentals, attractions, and airport taxis for your travels. Below, you'll find an overview of the app's features, installation instructions, and usage guidelines.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search and Book Hotels:** Find and book hotels with ease by searching for your destination and travel dates.
+- **Browse by Property Type:** Discover different types of properties, such as villas, apartments, and more.
+- **Filter Options:** Narrow down your search with filters for price range, number of adults, children, and rooms.
+- **View Hotel Details:** Get detailed information about hotels, including location, amenities, price, and availability.
+- **User Authentication:** Register and log in to manage your bookings and preferences.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
+![Home Page](src/assets/screen1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Search Results
+![Search Results](src/assets/screen2.png)
 
-### `npm test`
+### Hotel Details
+![Hotel Details](src/assets/screen3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To set up the Travel Advisor App locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Kip-rotich46/travel-advisor-app.git
+   cd travel-advisor-app
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server:**
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+4. **Open the app in your browser:**
+   Navigate to `http://localhost:3000` to view the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Searching for Hotels
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Enter your destination in the search bar on the home page.
+2. Select your check-in and check-out dates.
+3. Specify the number of adults, children, and rooms.
+4. Click the "Search" button to view available hotels.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Filtering Results
 
-## Learn More
+1. Use the filters on the left sidebar to set your desired price range and number of guests.
+2. Click "Search" to update the results based on your filters.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Viewing Hotel Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Click on a hotel from the search results to view detailed information.
+2. See photos, amenities, pricing, and availability.
+3. Click "Reserve or Book Now!" to proceed with booking.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We welcome contributions to improve the Travel Advisor App. If you'd like to contribute, please follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch with your feature or bug fix.
+3. Commit your changes and push to your branch.
+4. Open a pull request to merge your changes into the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+For any questions or support, please contact us at support@traveladvisorapp.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy traveling!
