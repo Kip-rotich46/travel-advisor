@@ -79,6 +79,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-For any questions or support, please contact us at support@traveladvisorapp.com.
+For any questions or support, please contact us at https://www.linkedin.com/in/gideon-langat
+
 
 Happy traveling!
