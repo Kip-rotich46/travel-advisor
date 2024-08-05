@@ -9,6 +9,7 @@ import Navbar from '../../components/navbar/Navbar';
 
 import './list.css';
 import { useState } from 'react';
+import SearchItem from '../../components/searchItem/SearchItem';
 
 const List = () => {
   const location = useLocation();
@@ -71,7 +72,16 @@ const List = () => {
             </div>
             <button className="lsButton">Search</button>
           </div>
-          <div className="listResult"></div>
+          <div className="listResult">
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+          </div>
         </div>
       </div>
     </div>

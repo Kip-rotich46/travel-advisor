@@ -16,8 +16,8 @@
   background-color: #febb02;
   padding: 10px;
   border-radius: 10px;
-  position: sticky;
-  top: 10px;
+  position: sticky; /* position : fixed*/
+  top: 10px;  
 }
 
 .lsTitle {
